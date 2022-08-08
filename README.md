@@ -1,1 +1,2 @@
-# KingDAOs-contract
+# StarfishDAO contract
+
