@@ -46,11 +46,4 @@ contract DaoFactory {
         return _userDaos[user].daos.contains(dao);
     }
 
-    function getUserDaoLength(address user) public view returns(uint)  {
-        return _userDaos[user].daos.length();
-    }
-    function getUserDaoByIndex(address user , uint index) public view returns(address) {
-        return _userDaos[user].daos.at(index);
-    }
-}
 
